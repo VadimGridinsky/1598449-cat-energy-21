@@ -44,25 +44,33 @@
       <form action="#" class="page-form">
          <fieldset class="page-form__fieldset">
             <legend class="page-form__legend"> Подбор программы</legend>
-            <label class="page-form__label">Имя:*</label>
-            <input class="page-form__input" type="text" placeholder="Барсик"></input>
-            <label class="page-form__label">Вес (кг):*</label>
-            <input class="page-form__input" type="text" placeholder="7"></input>
-            <label class="page-form__label">Возраст (лет):</label>
-            <input class="page-form__input" type="text" placeholder="7"></input>
-            <input class="page-form__input page-form__input-checkbox" type=" checkbox"></input>
-            <label class="page-form__label">Похудение</label>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Набор массы</label>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Не знаю (нужен ваш совет)</label>
+            <ul class="form__list">
+               <li class="form__item">
+                  <label class="page-form__label">Имя:*</label>
+                  <input class="page-form__input" type="text" placeholder="Барсик"></input>
+                  <label class="page-form__label">Вес (кг):*</label>
+                  <input class="page-form__input" type="text" placeholder="7"></input>
+                  <label class="page-form__label">Возраст (лет):</label>
+                  <input class="page-form__input" type="text" placeholder="7"></input>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Похудение</label>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Набор массы</label>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Не знаю (нужен ваш совет)</label>
+               </li>
+            </ul>
          </fieldset>
          <fieldset class="page-form__fieldset">
             <legend class="page-form__legend">Контактные данные (владельца кота)</legend>
-            <label class="page-form__label">E-mail:*</label>
-            <input class="page-form__input" type="text" placeholder="Kuklachev@gmail.com"></input>
-            <label class="page-form__label">Телефон:*</label>
-            <input class="page-form__input" type="phone" placeholder="8(960)900-60-90"></input>
+            <ul class="form__list">
+               <li class="form__item">
+                  <label class="page-form__label">E-mail:*</label>
+                  <input class="page-form__input" type="text" placeholder="Kuklachev@gmail.com"></input>
+                  <label class="page-form__label">Телефон:*</label>
+                  <input class="page-form__input" type="tel" placeholder="8(960)900-60-90"></input>
+               </li>
+            </ul>
          </fieldset>
          <fieldset class="page-form__fieldset">
             <legend class="page-form__legend"> Комментарий</legend>
@@ -71,14 +79,18 @@
          </fieldset>
          <fieldset>
             <legend>Дополнительно</legend>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Сахарозаменитель</label>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Питьевая вода</label>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Молоко</label>
-            <input class="page-form__input page-form__input-checkbox" type="checkbox"></input>
-            <label class="page-form__label">Витамины</label>
+            <ul class="form__list">
+               <li class="form__item">
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Сахарозаменитель</label>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Питьевая вода</label>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Молоко</label>
+                  <input class="page-form__input page-form__input--checkbox" type="checkbox"></input>
+                  <label class="page-form__label">Витамины</label>
+               </li>
+            </ul>
          </fieldset>
          <div class="page-form__submit">
             <button>Отправить заявку</button>
@@ -112,8 +124,8 @@
                <a href="#" class="copyrights__link"><img src="#" alt="logo"></a>
             </div>
          </div>
-         </div>
-      </footer>
+      </div>
+   </footer>
 </body>
 
 </html>
